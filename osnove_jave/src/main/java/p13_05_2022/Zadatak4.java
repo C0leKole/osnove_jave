@@ -1,6 +1,7 @@
 package p13_05_2022;
 
 import java.util.ArrayList;
+import java.util.Locale;
 import java.util.Scanner;
 
 public class Zadatak4 {
