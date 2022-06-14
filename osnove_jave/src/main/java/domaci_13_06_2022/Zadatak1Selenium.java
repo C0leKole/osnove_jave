@@ -41,7 +41,7 @@ public class Zadatak1Selenium {
 
         wait.until(ExpectedConditions.presenceOfElementLocated(By.xpath("//div[contains(@class, 'sc-iXxrte dxCajp')]")));
         driver.findElement(By.xpath("//button[contains(text(), 'Use One Side Only')]")).click();
-//block
+        //block
         driver.findElement(By.xpath("//img[contains(@alt, 'image 2')]")).click();
         driver.findElement(By.xpath("//div[contains(@class, 'sc-cCsOjp dcdHHD')]")).click();
 
@@ -82,16 +82,6 @@ public class Zadatak1Selenium {
 
         System.out.println("Vrednost pop up atributa je: " + greska.getAttribute("action"));
 
-        Thread.sleep(10000);
-
-
-
-
-
-
-
-
-        Thread.sleep(5000);
         driver.quit();
 
 
